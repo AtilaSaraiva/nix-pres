@@ -2,4 +2,4 @@
 
 To build it run
 
-> $ $(nix-build docker.nix) | docker load
+> $(nix-build docker.nix) | docker load
